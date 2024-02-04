@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --primary-color: #F99352;
+    --secondary-color: #5E8B23;
+    --accent1-color: #CDDFA0;
+    --accent2-color: #6FD08C;
+
+    --heading-font:'Caveat', serif;
+    --paragraph-font: 'Ubuntu', serif;
+
+    --nav-background-color:var(--accent1-color);
+    --nav-link-color:var(--secondary-color);
+    --nav-hover-link-color:var(--accent2-color);
+    --nav-hover-background-color:var(--primary-color);
+}
+
+* {
+    margin-left: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1300px
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-family:var(--heading-font);
+    color:var(--primary-color);
+    position:absolute;
+    text-align: center;
+    background: rgba(18, 117, 42, 0.575);
+    width: 100%;
+    top:50px;
+    font-size: 5em;
+}
+
+.hero article {
+    position:absolute;
+    top: 250px;
+    display: block;
+    padding: 20px;
+    margin: 70px;
+    background: rgba(216, 223, 217, 0.822);
+
+}
+
+.hero article img {
+    float:right;
+    width: 400px;
+}
+
+h2 {
+    font-family:var(--heading-font);
+    color:var(--primary-color);
+    font-size: 3em;
+}
+
+p {
+    font-family:var(--paragraph-font);
+    color:black;
+    font-size: 1.5em;
+
+}
+
+.hero{
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.sociallinks a {    
+    text-decoration: none;
+
+}
