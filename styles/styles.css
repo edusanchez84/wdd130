@@ -5,18 +5,30 @@
 }
 
 nav {
-    background-color: steelblue;
+    background-color: rgb(0, 37, 159);
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 18pt;
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 h1 {
-    color: steelblue;
+    color: rgb(0, 37, 159);
+    border-bottom: 1pt solid rgba(0, 0, 233, 0.836);
+    margin: 1rem;
 }
 
 main img {
@@ -30,16 +42,24 @@ main img {
 
 p {
     padding: 0;
+    margin: 1rem;
+}
+
+li {
+ margin-left: 1rem;
 }
 
 main {
-    max-width:840px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 
 aside {
-    width: 20rem;
+    width: 15rem;
+    height: auto;
     text-align: center;
     position: relative;
+    
 }
 
 aside img {
@@ -50,7 +70,7 @@ aside img {
 aside h2 {
     position: absolute;
     top: 12px;
-    left: 131px;
+    left: 90px;
 }
 
 footer {
@@ -66,6 +86,11 @@ footer {
     padding: 1rem;
     border: 1px solid rgba(0,0,0,0.2);
     color:  #333;
-    background-color: #eee;
+    background-color: #eeeeee;
 }
 
+.grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 1fr;
+}
