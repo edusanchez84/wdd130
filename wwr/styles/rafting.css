@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Ubuntu:wght@300&display=swap');
 
 :root {
-    --primary-color: #F99352;
+    --primary-color: #100a07;
     --secondary-color: #5E8B23;
     --accent1-color: #CDDFA0;
     --accent2-color: #6FD08C;
@@ -65,7 +65,7 @@ h1 {
     color:var(--primary-color);
     position:absolute;
     text-align: center;
-    background: rgba(18, 117, 42, 0.575);
+    background: rgba(171, 188, 175, 0.575);
     width: 100%;
     top:90px;
     font-size: 5em;
