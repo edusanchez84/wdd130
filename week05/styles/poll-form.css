@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Jost', Arial, 'Lucida Sans';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background: rgb(237, 240, 237);
+}
+
+header {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: rgb(6, 4, 109);
+    font-size: 35px;
+    margin: 15px;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 10px;
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid silver;
+}
+
+
+legend {
+    font-size: 25px;
+    margin: 10px;
+    color: rgb(42, 53, 199);
+    border: 1px solid silver;
+    padding-inline: 15px;
+}
+
+label, input, button, select, textarea {
+    font-family: 'courrier new', courier, times;
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+    font-weight: 700;
+}
+
+input, select, textarea {
+    padding: 10px;
+    font-size: 17px;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+button {
+    color: rgb(2, 9, 102);
+    background-color: silver ;   
+    margin: 25px;
+    width: 200px;
+    height: 50px;
+    justify-self: center;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 50px; 
+}
+
+button:hover {
+    background-color: rgb(6, 4, 109);
+    color: white; 
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 600px;
+    text-align: center;
+    color: #777;
+    border-top: 1px solid #ccc;
+    font-size: 0.8em;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+label:nth-child(4) {
+    margin: 0.5rem 0 0;
+    justify-self: center;
+}
+
