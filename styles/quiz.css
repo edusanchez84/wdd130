@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(222, 235, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 20px;
+}
+
+header {
+    width: 600px;
+    margin: 30px auto 0;    
+    padding: 20px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    background-color: white;
+}
+
+h1 {
+    color: rgb(73, 24, 121);
+    font-size: 38px;
+    font-family: 'courier new', trebuchet, courier;
+    padding: 5px 0px;
+    background-color: rgb(241, 238, 238);
+    border-radius: 10px;
+}
+
+main {
+    width: 600px;
+    margin: 0px auto;
+    background-color: white;
+    border: 1px solid black;  
+}
+
+form {
+    display: grid;
+}
+
+div {
+    margin: 20px 20px 0;
+    padding: 15px;
+    background-color: rgb(241, 238, 238);    
+    border-radius: 10px;
+    display: grid;
+}
+
+label {
+    justify-self: center;
+    margin-bottom: 10px;
+}
+
+select {
+    font-size: 18px;
+    width: 170px;
+    justify-self: center;
+    margin-top: 15px;
+}
+
+input[type="number"] {
+    width: 50px;
+    font-size: 18px;
+    justify-self: center;
+    margin-top: 15px;
+}
+
+input[type="submit"] {
+    width: 170px;
+    justify-self: center;
+    margin: 45px;
+    Border: 1px solid black;
+    color: rgb(73, 24, 121);
+    font-size: 23px;
+    font-family: 'courier new', trebuchet, courier;
+    padding: 5px 0px;
+    background-color: rgb(241, 238, 238);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(6, 4, 109);
+    color: white; 
+}

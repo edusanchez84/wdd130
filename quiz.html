@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width. initial-scale=1">
+        <title>Quick Quiz - HTML and CSS</title>
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <header>
+            <h1>Quick HTML and CSS quiz</h1>
+        </header>
+        <main>
+            <form>
+                <div>
+                    <label for="q1">How would you define a hyperlink in HTML?</label>
+                    <input type="text" id="q1" name="q1">
+                </div>
+                <div>
+                    <label for="q2">What is the use of CSS?</label>
+                    <textarea id="q2" name="q2" rows="3" cols="45"></textarea>
+                </div>
+                <div>
+                    <label for="q3">Which decalarion will set the text size to 20px? </label>
+                    <select id="q3" name="q3">
+                        <option value="opt1">None of the listed</option>
+                        <option value="opt2">font-display: 20px;</option>
+                        <option value="opt3">font-size: 20px;</option>
+                        <option value="opt4">font-weight: 20px;</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="q4">How many headings tags exists in HTML?</label>
+                    <input type="number" id="q4" name="q4" min="0" max="10" value="0">
+                </div>
+                <input type="submit" value="Submit Quiz">
+            </form>
+        </main>
+    </body>
+</html>
