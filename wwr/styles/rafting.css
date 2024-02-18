@@ -60,7 +60,7 @@ header a {
     flex: 1;
 }
 
-h1 {
+.hero h1 {
     font-family:var(--heading-font);
     color:var(--primary-color);
     position:absolute;
@@ -202,15 +202,17 @@ footer p {
     margin-bottom: 20px;
     align-items:center;
     justify-items: center;
-    height: 450px;
 }
 
-.contact2 h2 {
+.contact2 h1 {
     grid-column: 1 / 6;
+    font-family:var(--heading-font);
+    color:var(--primary-color);
+    text-align: center;
     background: rgba(18, 117, 42, 0.575);
     width: 100%;
-    text-align: center;
-    margin: 40px;
+    font-size: 5em;
+    margin: 40px 0;
 }
 
 .contact2 figure img {
@@ -279,16 +281,16 @@ textarea {
     margin-top: 10px;
 }
 
-input[type="submit"] {
+button {
     margin: 15px;
     font-size: 1.1em;
     font-family:Arial, Helvetica, sans-serif;
-    width: 180px;
     justify-self: center;
     border-radius: 45px;
+    padding: 5px;
 }
 
-input[type="submit"]:hover {
+button:hover {
     background-color: rgba(18, 117, 42, 0.575);
     color: white; 
 }
