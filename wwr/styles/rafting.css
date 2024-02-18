@@ -292,3 +292,8 @@ input[type="submit"]:hover {
     background-color: rgba(18, 117, 42, 0.575);
     color: white; 
 }
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
