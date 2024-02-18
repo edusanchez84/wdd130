@@ -192,3 +192,103 @@ footer p {
     flex: 5;
     padding-left: 380px;
 }
+
+.contact2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(233, 230, 230);
+    border: 1px solid black;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    align-items:center;
+    justify-items: center;
+    height: 450px;
+}
+
+.contact2 h2 {
+    grid-column: 1 / 6;
+    background: rgba(18, 117, 42, 0.575);
+    width: 100%;
+    text-align: center;
+    margin: 40px;
+}
+
+.contact2 figure img {
+    width: 350px;   
+    border: 1px solid black;
+    margin: 0;
+}
+
+.contact1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(233, 230, 230);
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.contact1 h2 {
+    background: rgba(18, 117, 42, 0.575);
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 ;
+}
+
+.cinfo {
+    padding: 0;
+    margin: 0;
+}
+
+.contactus {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    background-color: #f7ad7f;
+    font-family:var(--paragraph-font);
+    font-size: 1.3em;
+    margin: 20px;
+    border-radius: 45px;
+    display: grid;
+}
+
+form div {
+    margin: 20px;
+    font-weight: 600;
+}
+
+.name {
+    padding-top: 10px;
+}
+
+.contactus h2 {
+    margin-bottom: 0;
+}
+
+input {
+    font-size: 1.1em;
+    padding: 8px;
+    border-radius: 18px;
+}
+
+textarea {
+    font-size: 1.1em;
+    padding: 8px;
+    border-radius: 18px;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    margin: 15px;
+    font-size: 1.1em;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 180px;
+    justify-self: center;
+    border-radius: 45px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(18, 117, 42, 0.575);
+    color: white; 
+}
