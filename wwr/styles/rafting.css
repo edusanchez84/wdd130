@@ -450,3 +450,99 @@ th, td {
     border: 1px solid black;
     padding: 10px;
 }
+
+.homeup {
+    position: relative;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    height: 625px;
+}
+
+.homeup h1 {
+    font-family:var(--heading-font);
+    color:var(--primary-color);
+    position:absolute;
+    text-align: center;
+    background: rgba(171, 188, 175, 0.575);
+    width: 100%;
+    top:90px;
+    font-size: 5em;
+    margin: 0;
+}
+
+.homeup img {
+    width: 100%;
+    height: auto;
+    margin: 0 ;
+}
+
+.homedown {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: 100px 1fr;
+}
+
+.actiontotrips {
+    justify-items: center;
+    align-items: center;
+}
+
+.actiontotrips button {
+    width: 320px ;
+    height: 60px;
+    margin: 0;
+    background-color: #f7ad7f;
+    font-weight: bold;
+}
+
+.actiontotrips button:hover {
+    background-color:rgba(18, 117, 42, 0.575);
+} 
+
+.newsletter {
+    display: grid;
+}
+
+.whyrafting {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1 / 3;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(233, 230, 230);
+    border: 1px solid black;
+    margin-bottom: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.whyrafting img {
+    width: 390px;
+    margin: 0;
+}
+
+.newsletter form {    
+    border: 1px solid black;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.newsletter form h2 {
+    font-size: 45px;
+    margin: 5px 0;    
+}
+
+.newsletter form label {
+    margin: 0 0 0 10px;
+    border: 0;
+}
+
+.newsletter form input {
+    margin: 0px 10px 0 10px;
+    height: 50px;
+}
+
+.newsletter form button {
+    width: 150px;
+    height: 50px;
+}
